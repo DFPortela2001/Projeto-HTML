@@ -34,3 +34,13 @@
     opacity: 1;
     visibility: visible; /* Show the active slide */
 }
+
+.map{
+    margin: auto;
+    width: 40%;
+    border: 3px;
+    padding: 10px;
+}
+.iframe {
+    display: inline-block;
+}
