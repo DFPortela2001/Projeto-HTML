@@ -41,6 +41,47 @@
     border: 3px;
     padding: 10px;
 }
+.contactos{
+    margin: auto;
+    width: 45%;
+    border: 3px;
+    padding: 10px;
+}
 .iframe {
     display: inline-block;
+}
+.custom-vant{
+    width: 40%;
+    height: 40%;
+}
+.custom-grid{
+    width: 50%;
+	padding: 2% 2%;
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;     /* Vertically centers the content */
+                            /* Sets the height to the full viewport height */
+}
+
+
+
+
+.price-list {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.price-list th, .price-list td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.price-list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4296BB;
+    color: white;
 }
