@@ -50,66 +50,28 @@
 <!--END HEADER-->
 <main>
   <body>
-      <div class="contactos"> 
-      <h4 style="text-align: center;">Contactos: </h6>
-        <form action="https://formspree.io/engomadoria.beta@gmail.com" method="POST"><label for="name">Nome: </label><br> <input type="text" id="name" name="name" required><br>
-          <label for="email">Email:</label><br><input type="email" id="email" name="_replyto" required><br>
-          <label for="message">Messagem:</label><br>
-          <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-          <input type="submit" value="Enviar">
-        </form> 
-        <p>Alternativamente poderá ligar para:</p> 
-        <ul> 
-          <li>Telemóvel: +351 966 340 691</li> 
-          <li>Email: engomadoria.beta@gmail.com</li>
-          <li>Telefone: 218 000 888</li>
-        </ul>
+      <div class="contactos">  
+        <form id="contact" action="https://formspree.io/engomadoria.beta@gmail.com" method="post">
+          <h3>Entre já em contacto!</h3>
+          <h4>Iremos responder até 24 horas!</h4>
+          <form action="https://formspree.io/engomadoria.beta@gmail.com" method="POST"><br> <input placeholder="O seu nome: " type="text" id="name" name="name" required autofocus><br>
+            <input placeholder="O seu Email: " type="email" id="email" name="_replyto" required><br>
+            <input placeholder="O seu número de telefone" type="tel" tabindex="3" required> 
+            <textarea placeholder="Escreva aqui a sua questão: " id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+            </fieldset>
+            <p>Alternativamente poderá ligar para:</p> 
+            <ul> 
+              <li>Telemóvel: +351 966 340 691</li> 
+              <li>Email: engomadoria.beta@gmail.com</li>
+              <li>Telefone: 218 000 888</li>
+            </ul>
+        </form>
       </div>
-<!-- 
-  <h1> Responsive Material Design Form 
-  <small>Material Design delivers a cleaner and flatter user interface</small>
-</h1>
-<section class="contact-wrap">
-  <form action="" class="contact-form">
-    <div class="col-sm-6">
-      <div class="input-block">
-        <label for="">First Name</label>
-        <input type="text" class="form-control">
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="input-block">
-        <label for="">Last Name</label>
-        <input type="text" class="form-control">
-      </div>
-    </div>
-    <div class="col-sm-12">
-      <div class="input-block">
-        <label for="">Email</label>
-        <input type="text" class="form-control">
-      </div>
-    </div>
-    <div class="col-sm-12">
-      <div class="input-block">
-        <label for="">Message Subject</label>
-        <input type="text" class="form-control">
-      </div>
-    </div>
-    <div class="col-sm-12">
-      <div class="input-block textarea">
-        <label for="">Drop your message here</label>
-        <textarea rows="3" type="text" class="form-control"></textarea>
-      </div>
-    </div>
-    <div class="col-sm-12">
-      <button class="square-button">Send</button>
-    </div>
-  </form>
-</section>
 
 
--->
-
+<!-- MAPA -->
     <div class="map">
       <h5 style="text-align: center;">Encontre-nos aqui!</h5>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99498.01797744159!2d-9.213805266232294!3d38.80237947716111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd192f0a80f19099%3A0x7042fec12e2be5f!2sEngomadoria%20Beta!5e0!3m2!1spt-PT!2spt!4v1703805768120!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
