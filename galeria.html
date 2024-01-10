@@ -49,64 +49,21 @@
 </header>
 <!-- CORPO DO SITE-->
 <main>
-<style>
-    div.gallery {
-        border: 1px solid #ccc;
-    }
-    
-    div.gallery:hover {
-        border: 1px solid #777;
-    }
-    
-    div.gallery img {
-        width: 100%;
-        height: auto;
-    }
-    
-    div.desc {
-        padding: 15px;
-        text-align: center;
-    }
-    
-    * {
-        box-sizing: border-box;
-    }
-    
-    .responsive {
-        padding: 0 6px;
-        float: left;
-        width: 24.99999%;
-    }
-    
-    @media only screen and (max-width: 700px) {
-        .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-        }
-    }
-    
-    @media only screen and (max-width: 500px) {
-        .responsive {
-        width: 100%;
-        }
-    }
-    
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-</style>
         </head>
-        <body>
-        
-        <h2>Responsive Image Gallery</h2>
-        
-        <h4>Resize the browser window to see the effect.</h4>
-        <div>
-        <video width="320" height="240" controls style="margin: 0px 0px 20px 50px;">
-          <source src="Imgs/Engomadoria_.mp4" type=video/mp4>
+        <div id="loading-screen">
+          <div class="loader"></div>
+          <p>Loading...</p>
         </div>
+    
+        <div id="content"> 
+        <body>
+        <h2 style="text-align: center; margin-top: 20px;"> Conheça aqui a sua próxima &nbsp;<span style="color: #4296BB;">Engomadoria</span></h2>
+    
+          <div class="video-gallery">
+            <video controls>
+              <source src="Imgs/Engomadoria_.mp4" type=video/mp4>
+          </div>
+
 
         <div class="responsive">
           <div class="gallery">
@@ -116,8 +73,7 @@
             <div class="desc">Add a description of the image here</div>
           </div>
         </div>
-        
-        
+
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="img_forest.jpg">
@@ -136,8 +92,6 @@
           </div>
         </div>
 
-        
-
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="img_mountains.jpg">
@@ -155,17 +109,19 @@
         </div>
         
         </body>
+        <footer>
+          <br>
+          <br>
+          <h5 style="text-align: center;"> Não hesite!</h5>
+          <h6 style="text-align: center;">Caso tenha alguma dúvida ou sugestão sobre os nossos serviços, contacte-nos.</h6>
+          <p style="text-align: center;">© 2023 Engomadoria Beta | Contato: +351 966 340 691 | 218 000 888 </p>  
+          <p style="text-align: center;"> beta.engomadoria@gmail.com </p>
+      </footer>
+      </div>
 </main>
 <!-- ADICIONAR UMA GALERIA ? -->
 
-<footer>
-    <br>
-    <br>
-    <h5 style="text-align: center;"> Não hesite!</h5>
-    <h6 style="text-align: center;">Caso tenha alguma dúvida ou sugestão sobre os nossos serviços, contacte-nos.</h6>
-    <p style="text-align: center;">© 2023 Engomadoria Beta | Contato: +351 966 340 691 | 218 000 888 </p>  
-    <p style="text-align: center;"> engomadoria-beta@gmail.com</p>
-</footer>
+
 <!-- FOOTER-->
 
 </html>

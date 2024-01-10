@@ -56,3 +56,13 @@ this.setAttribute('aria-expanded', 'true');
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
 
+
+//LOADING 
+// Simulate loading by setting a timeout
+setTimeout(function() {
+    // Hide the loading screen
+    document.getElementById('loading-screen').style.display = 'none';
+    
+    // Display the content
+    document.getElementById('content').style.display = 'block';
+  }, 1500);  // 3 seconds for demonstration, adjust as needed
